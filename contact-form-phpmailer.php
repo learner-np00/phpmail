@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = "your_email@gmail.com"; //change here
-        $mail->Password = "1111 2222 3333 4444"; // Your Gmail password here
+        $mail->Password = "1111 2222 3333 4444"; // Your app password here
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
