@@ -32,12 +32,12 @@ if (isset($_POST['submit'])) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = "ps9594083@gmail.com";
-        $mail->Password = "qbma vtiw gwwc wghx";
+        $mail->Username = "your_email@gmail.com"; //change here
+        $mail->Password = "1111 2222 3333 4444"; // Your Gmail password here
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
-        $mail->setFrom("ps9594083@gmail.com", 'Mailer');
+        $mail->setFrom("your_email@gmail.com", 'Mailer'); //change here too
         $mail->addAddress($email);
 
         $mail->isHTML(true);
